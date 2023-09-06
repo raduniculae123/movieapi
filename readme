@@ -1,0 +1,15 @@
+To test the application: 
+1. Open the project
+2. Run the Main method of the MovieapiApplication Class. (I used Java 17)
+3. Open the browser and access localhost:8080/db to view the database (press Connect and should work with default input)
+4. Access all the required endpoints on the same port using the next URLs:
+  "/movies"
+  "/genre/{genre}"
+  "/tag/{tag}"
+  "/users"
+  "users/{id}"
+Mentions:
+1. The requirements document as I understood it, only required the backend part which was developed in Java Spring, therefore the output when accessing the endpoints will be raw.
+2. For the database I opted for an H2 database for ease of user.
+3. The lack of comments is from the simplicity of the code.
+                                      
